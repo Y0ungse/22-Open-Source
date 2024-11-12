@@ -10,5 +10,4 @@
 202102202 유영서
 202102426 이상우
 
-![Uploading image.png…]()
-
+https://www.youtube.com/watch?v=3xRT4fO8btM

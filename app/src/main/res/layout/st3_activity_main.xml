@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--해당 스테이지 이용 방법을 알려주는 xml입니다.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/st3_bg_root_center"
+    android:layout_weight="1"
+    tools:context=".st3_MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/st3_btn_hint_board"
+            android:layout_width="123dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="252dp"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="356dp"
+            android:layout_marginBottom="38dp"
+            android:background="#00ff0000"
+            app:layout_constraintBottom_toTopOf="@+id/st3_btn_hint1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+
+        <Button
+            android:id="@+id/st3_btn_hint1"
+            android:layout_width="162dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="213dp"
+            android:layout_marginTop="228dp"
+            android:layout_marginEnd="356dp"
+            android:layout_marginBottom="16dp"
+            android:background="#00ff0000"
+            app:layout_constraintBottom_toTopOf="@+id/st3_btn_centerToLeft"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/st3_btn_centerToLeft"
+            android:layout_width="52dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="253dp"
+            android:layout_marginTop="335dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/st3_btn_left"
+            android:backgroundTint="#970000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/st3_btn_centerToRight"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/st3_btn_center_Quiz2"
+            android:layout_width="85dp"
+            android:layout_height="158dp"
+            android:layout_marginStart="252dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="125dp"
+            android:background="#00FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/st3_btn_hint_board"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/st3_btn_centerToRight"
+            android:layout_width="52dp"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="335dp"
+            android:layout_marginEnd="253dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/st3_btn_right"
+            android:backgroundTint="#970000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/st3_btn_centerToLeft"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/st3_btn_centerSKILL_hint"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="532dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="335dp"
+            android:background="@drawable/st3_btn_hint_item"
+            android:backgroundTint="#970000"
+            android:text="HINT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/st3_btn_centerSKILL_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/st3_btn_centerSKILL_item"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="335dp"
+            android:background="@drawable/st3_btn_hint_item"
+            android:backgroundTint="#970000"
+            android:text="Item"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/st3_btn_centerSKILL_hint"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/st3_txt_center_story"
+            android:layout_width="660dp"
+            android:layout_height="152dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:alpha="0.7"
+            android:background="@android:color/black"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:tag="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

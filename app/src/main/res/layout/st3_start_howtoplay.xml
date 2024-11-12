@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--해당 스테이지 이용 방법을 알려주는 xml입니다.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/st3_bg_howtoplay"
+    android:layout_weight="1"
+    tools:context=".st3_MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/st3_btn_goToMain"
+            android:layout_width="115dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="572dp"
+            android:layout_marginTop="314dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="27dp"
+            android:backgroundTint="#000000"
+            android:text="시작하기"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/st3_txt_howtoplayTitle"
+            android:layout_width="348dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="236dp"
+            android:layout_marginBottom="336dp"
+            android:text="Stage 3 플레이 방법"
+            android:textColor="#E63030"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/st3_txt_howtoplayParagraph"
+            android:layout_width="468dp"
+            android:layout_height="228dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="52dp"
+            android:alpha="0.77"
+            android:background="#7C7676"
+            android:padding="16dp"
+            android:text="Stage #3. 과학실\n\n시점 변경 : 방향키 버튼을 통해 시점 전환이 가능합니다.\n힌트 : 퀴즈를 풀기 위한 TIP을 제공합니다.\n탈출 방법 : 퀴즈1을 풀어 단서를 찾고, 마지막 퀴즈를 풀어 탈출합니다.\n\n* 과학실의 화면을 클릭하여 퀴즈를 풀기 위한 단서들을 찾습니다.\n* 단서는 한 화면에 최소 1개, 최대 2개 분포되어있습니다.\n* (주의) 과학실에서 Hint는 오직  \'2번만\' 사용할 수 있습니다."
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/st3_btn_goToMain"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/st3_txt_howtoplayTitle"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

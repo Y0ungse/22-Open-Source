@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/st3_activity_main.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st3_exit_layout.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st3_hint5_satan_number_page.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st3_popup_hint_form.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st3_popup_item_form.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st3_quiz1_layout.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st3_quiz2_layout.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/st4_popup_quizhint.xml" value="0.2833333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

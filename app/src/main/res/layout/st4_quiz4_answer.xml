@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".st4_quiz4_answer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/st4_lock_paper">
+
+
+        <EditText
+            android:id="@+id/st4_text_answer"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="216dp"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/st4_btn_quiz_input"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/st4_btn_quiz_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="321dp"
+            android:layout_marginEnd="322dp"
+            android:layout_marginBottom="135dp"
+            android:backgroundTint="#2D988F8F"
+            android:text="입력"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/st4_textView2"
+            android:layout_width="468dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="160dp"
+            android:text="   앞의 악보에 동그라미 친 계이름으로 답을 입력해라.\n         답은 한글을 영어 단어로 바꾼 것이다. \n  *** 영어 단어는 총 3자리로, 대문자로 입력하시오 ***"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

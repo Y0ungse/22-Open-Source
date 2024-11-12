@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/number_lock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#353535"
+    android:orientation="vertical"
+    tools:context=".st5_lock_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="번호 입력"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#E91E63" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:background="#353535" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#FFEB3B" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:background="#353535" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#3F51B5" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:background="#353535" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00BCD4" />
+
+    </LinearLayout>
+
+    <com.alexzaitsev.meternumberpicker.MeterView
+        android:id="@+id/st5_meterView"
+        style="@style/MeterViewStyle"
+        android:layout_width="402dp"
+        android:layout_height="102dp" />
+
+    <Button
+        android:id="@+id/st5_btn_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력"/>
+</LinearLayout>

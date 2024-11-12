@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    tools:context=".st3_Hint4_SatanBook">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/st3_btn_hint4ToRoot"
+            android:layout_width="52dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="339dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginEnd="340dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/st3_btn_down"
+            android:backgroundTint="#970000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/st3_img_hint4"
+            android:layout_width="327dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="203dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="202dp"
+            android:layout_marginBottom="44dp"
+            app:layout_constraintBottom_toTopOf="@+id/st3_btn_hint4ToRoot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/st3_item_hint4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

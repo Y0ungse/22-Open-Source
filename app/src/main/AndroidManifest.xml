@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.room">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity_Video"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".main2_5"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".main2_4"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".main2_3"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".main2_2"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".main2_1"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+
+
+        <activity
+            android:name=".exit_outside"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".exit_secte"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exit_stairs"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+
+        <activity
+            android:name=".st1_StartAndEnding_Story"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st1_Popup_hint"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".st1_Popup_item"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".st1_MainActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_StartAndEnding_Ending"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lectureDeskPw"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lockerPw"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lectureDeskOpen"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lockerOpen"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_frame"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lectureDesk"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lockerZoom"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_door"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_lockers"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_desk"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_window"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_blackboard"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_backpack"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st1_StartAndEnding_HowToPlay"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+
+
+        <activity
+            android:name=".st2_StartAndEnding_HowToPlay"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_StartAndEnding_Ending"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_exitCode"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_hint1"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_hint2"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_hint3"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".st2_paint"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_paper"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_paper_hint1"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_paper_hint2"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st2_Sub2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st2_Sub1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity android:name=".st2_MainActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+
+
+        <activity
+            android:name=".st3_MainActivity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_MainActivity_Left"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_MainActivity_Right"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_StartAndEnding_HowToPlay"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name=".st3_Hint1_Board"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_Hint2_Student"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_Hint3_Teacher"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_Hint4_SatanBook"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_Hint5_SatanNumber"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name=".st3_Quiz1"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_Quiz2"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name=".st3_BG_TeacherDesk"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_BG_StudentDesk"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".st3_BG_Cabinet"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name=".st3_StartAndEnding_Ending"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity android:name=".st3_Popup_QuizHint" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".st3_Popup_Item" android:theme="@android:style/Theme.Dialog" />
+
+
+        <activity
+            android:name=".st4_StartAndEnding_HowToPlay"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz4_hint"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_popup_quizhint"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".st4_StartAndEnding_Ending"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_unlock_final"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_unlock4"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz4_answer"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".st4_unlock3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz3_whiteboard2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz3_whiteboard1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_unlock2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz2_trumpet_front"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz2_trumpet"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz2_hint"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_unlock1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_piano"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".st4_quiz2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_quiz2_trumpet_case"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_Music_piano"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_Music_room_3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_Music_room_2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st4_Music_room_1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+
+
+        <activity
+            android:name=".st5_StartAndEnding_HowToPlay"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st5_escape"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st5_PopUp_QuizHint"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".st5_quiz_1"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st5_quiz_3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".st5_lock_3"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st5_lock_2"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st5_lock_1"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".st5_quiz_2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st5_Background_6"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st5_Background_5"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st5_Background_4"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st5_Background_3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st5_Background_2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".st5_MainActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+    </application>
+
+</manifest>

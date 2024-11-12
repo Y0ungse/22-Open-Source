@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".st3_Quiz2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/st3_bg_quiz1">
+
+        <EditText
+            android:id="@+id/st3_et_quiz2Shell"
+            android:layout_width="246dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="216dp"
+            android:backgroundTint="#000000"
+            android:hint="숫자 세 자리를 입력하세요."
+            android:textColor="#000000"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/st3_btn_quiz2Input"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/st3_btn_quiz2Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="321dp"
+            android:layout_marginEnd="322dp"
+            android:layout_marginBottom="135dp"
+            android:backgroundTint="#7C7676"
+            android:text="입력"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/st3_et_quiz2Shell" />
+
+        <Button
+            android:id="@+id/st3_btn_quiz2ToRoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="347dp"
+            android:backgroundTint="@color/black"
+            android:text="나가기"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/st3_img_exitlogo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/st3_img_exitlogo"
+            android:layout_width="191dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="270dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/st3_icon_quiz2_exit"
+            app:layout_constraintBottom_toTopOf="@+id/st3_et_quiz2Shell"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/st3_txt_quiz2"
+            android:layout_width="690dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="16dp"
+            android:alpha="0.7"
+            android:background="#7C7676"
+            android:backgroundTint="@color/black"
+            android:padding="16dp"
+            android:tag="1"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/st3_btn_quiz2Input"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

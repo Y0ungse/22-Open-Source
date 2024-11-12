@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--해당 스테이지 이용 방법을 알려주는 xml입니다.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/st4_bg_howtoplay"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/st4_btn_goToMain"
+            android:layout_width="115dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="572dp"
+            android:layout_marginTop="314dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="27dp"
+            android:backgroundTint="#000000"
+            android:text="시작하기"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/st4_txt_howtoplayTitle"
+            android:layout_width="348dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="236dp"
+            android:layout_marginBottom="336dp"
+            android:text="Stage 4 플레이 방법"
+            android:textColor="#E63030"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/st4_txt_howtoplayParagraph"
+            android:layout_width="468dp"
+            android:layout_height="228dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="52dp"
+            android:alpha="0.77"
+            android:background="#7C7676"
+            android:padding="16dp"
+            android:text="Stage #4. 음악실\n\n시점변경: 방향키 버튼을 통해 시점 전환이 가능합니다.\n힌트: 힌트를 직접 찾거나, 상단바 우측의 힌트를 이용합니다
+\n탈출: 총 4개의 퀴즈를 해결하여 획득한 암호를 우측 상단에 표시된 순서대로 입력합니다. \n\n * 화면을 클릭하여 퀴즈와 단서를 찾고 이는 모두 다시보기가 가능합니다.\n* 획득한 암호를 터치하면 자동으로 화면이 전환됩니다."
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/st4_btn_goToMain"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/st4_txt_howtoplayTitle"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

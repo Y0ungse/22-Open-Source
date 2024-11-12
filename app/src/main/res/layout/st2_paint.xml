@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".st2_paint"
+    android:background="@drawable/st2_paint">
+
+    <Button
+        android:id="@+id/st2_btn_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="red" />
+
+    <Button
+            android:id="@+id/st2_btn_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:text="blue" />
+
+        <Button
+            android:id="@+id/st2_btn_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:text="black" />
+
+    <Button
+        android:id="@+id/st2_btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:textSize="19dp"
+        android:text="지우기" />
+    <Button
+        android:id="@+id/st2_btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="제출" />
+
+
+    <LinearLayout
+        android:id="@+id/st2_draw_linear"
+        android:layout_width="710dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="-600dp"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical" />
+</LinearLayout>

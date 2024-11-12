@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_Piano"
+    tools:context="com.example.room.st4_piano">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/st4_do1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#ffffff"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_re1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#ffffff"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_mi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#ffffff"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_pa"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_sol"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_ra"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_si"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_do2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/st4_re2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#000000"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#000000"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="80dp"
+                android:backgroundTint="#000000"
+                android:onClick="mOnClick"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#000000"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#000000"
+                android:onClick="mOnClick"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="80dp"
+                android:backgroundTint="#000000"
+                android:onClick="mOnClick"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

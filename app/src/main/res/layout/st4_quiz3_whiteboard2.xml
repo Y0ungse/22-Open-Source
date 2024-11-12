@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".st4_quiz3_whiteboard2">
+
+    <Button
+        android:id="@+id/st4_quiz3_unlock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/st4_quiz3_whiteboard_2"/>
+</LinearLayout>

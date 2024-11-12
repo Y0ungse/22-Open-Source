@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.room.st4_quiz1"
+    android:gravity="center"
+    android:background="@drawable/st4_quiz1_music_sheet">
+
+    <Button
+        android:id="@+id/st4_music1"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="#CE232121"
+        android:onClick="mOnClick"
+        android:text="music 1"
+        app:layout_constraintBottom_toTopOf="@+id/st4_music3"
+        app:layout_constraintEnd_toStartOf="@+id/st4_music2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/st4_music2"
+        android:layout_width="117dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#CE232121"
+        android:onClick="mOnClick"
+        android:text="music 2"
+        app:layout_constraintBottom_toTopOf="@+id/st4_music4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/st4_music1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/st4_music3"
+        android:layout_width="107dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#CE232121"
+        android:onClick="mOnClick"
+        android:text="music 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/st4_music4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/st4_music1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/st4_music4"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="400dp"
+        android:backgroundTint="#CE232121"
+        android:onClick="mOnClick"
+        android:text="music 4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/st4_music3"
+        app:layout_constraintTop_toBottomOf="@+id/st4_music2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/st4_input_1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/st4_music3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/st4_music1"
+        app:layout_constraintVertical_bias="0.0"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/st4_input_2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/st4_music4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toEndOf="@+id/st4_input_1"
+        app:layout_constraintTop_toBottomOf="@+id/st4_music2"
+        app:layout_constraintVertical_bias="0.0"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/st4_input_3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/st4_music3"
+        app:layout_constraintVertical_bias="0.0"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/st4_input_4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toEndOf="@+id/st4_input_3"
+        app:layout_constraintTop_toBottomOf="@+id/st4_music4"
+        app:layout_constraintVertical_bias="0.0"
+        android:text="4"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
